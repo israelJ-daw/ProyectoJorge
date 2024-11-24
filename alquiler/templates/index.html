@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal</title>
-</head>
-<body>
-    
-<h3>Esto es la pagina principal donde podemos acceder a todas las demas URLS</h3>
+{% extends "principal.html" %}
 
-<ul>
+  {% block cabezera %}
+    <h1>Esto esta en principal</h1>
+  {% endblock  %}
 
 
-
-</ul>    
-
-</body>
-</html>
+  {% block contenido %}
+  <h1>Prueba</h1>
+  {% endblock  %}

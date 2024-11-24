@@ -1,4 +1,4 @@
-#!/home/alumnado/Escritorio/ProyectoJorge/myvenv/bin/python
+#!/home/usuario/Escritorio/ProyectoJorge/myvenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
